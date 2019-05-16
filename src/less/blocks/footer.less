@@ -2,6 +2,7 @@ footer {
   background: #fff;
   margin-top: 40px;
   padding: 100px 0;
+  border-bottom: 1px solid rgba(#1F2041, .1);
 }
 
 h3 {
@@ -87,6 +88,38 @@ ul {
           background: linear-gradient(#BC9CFF,#8BA4F9);
           color: transparent;
           -webkit-background-clip: text;
+        }
+      }
+    }
+  }
+}
+
+
+
+.copyright {
+  background: #fff;
+  &__item {
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 20px 0;
+    &-info {
+      color: rgba(#1F2041, .75);
+    }
+    &-social {
+      a {
+        font-family: "Font Awesome";
+        font-size: 24px;
+
+        i {
+          background: linear-gradient(#BC9CFF,#8BA4F9);
+          color: transparent;
+          -webkit-background-clip: text;
+          margin-left: 20px;
         }
       }
     }
